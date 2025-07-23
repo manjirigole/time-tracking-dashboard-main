@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/time-tracking-dashboard-main-gvsi1flIct
+- Live Site URL: https://manjirigole.github.io/time-tracking-dashboard-main/
 
 ## My process
 
