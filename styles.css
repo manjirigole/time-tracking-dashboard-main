@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  gap: 2rem;
+  background-color: hsl(226, 43%, 10%);
+}
+.profile-div {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1rem;
+}
+.profile-container {
+  max-width: 250px;
+  max-height: 500px;
+  height: 100%;
+  width: 100%;
+}
+.profile-card {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.profile-img {
+  width: 70px;
+  border: 3px solid hsl(236, 100%, 87%);
+  border-radius: 50%;
+}
+.profile-img-div {
+  padding: 1rem 0 1rem 0;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+.profile-info p {
+  margin: 0;
+  padding-top: 10px;
+}
+.profile-time {
+  padding: 1rem 0 3rem 0;
+}
+.report-text {
+  color: hsl(236, 100%, 87%);
+  font-size: 14px;
+}
+
+.name {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 3rem;
+}
+.profile-time {
+  color: hsl(235, 45%, 61%);
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.profile-time p:hover {
+  color: white;
+  cursor: pointer;
+}
+.dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
+  border-radius: 1rem;
+  height: 100%;
+}
+.activity-detail {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.activity-detail:hover {
+  background-color: hsl(235, 45%, 61%);
+  cursor: pointer;
+}
+.dashboard-div {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 80px;
+  border-radius: 30px;
+  overflow: hidden;
+  padding-top: 50px;
+  position: relative;
+}
+.title-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: white;
+}
+.timeperiod {
+  padding: 1rem;
+}
+.current {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+.previous {
+  margin: 0;
+  color: hsl(236, 100%, 87%);
+}
